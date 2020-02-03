@@ -5,6 +5,7 @@ body{
 .my_navbar{
   display: flex;
   flex-direction: column;
+  border-bottom: 2px dashed navy;
 }
 .navbar-brand{
   margin: 0;
@@ -19,6 +20,7 @@ body{
   height: fit-content;
   display: flex;
   flex-direction: column;
+  border-bottom: 2px dashed navy;
 }
 
 
@@ -28,8 +30,10 @@ flex-direction: row;
 flex-wrap: wrap;
 justify-content: space-around;
 padding: 5em;
-background-image: url(https://picsum.photos/id/143/1600?grayscale);
-color: darkcyan;
+background-image: url(./abstract-art-background-blue-370799.jpg);
+background-repeat: no-repeat;
+color: navy;
+align-items: center;
 }
 
 .list-group-item {
@@ -56,10 +60,46 @@ flex-direction: row;
 flex-wrap: wrap;
 justify-content: space-around;
 }
-.summary{
-  background-color: rgba(169, 169, 169, 0.85);
+
+
+.card-title{
+  color: navy;
 }
-.skillsummary{
-  background-color: rgba(169, 169, 169, 0.85);
-  width: fit-content;
+
+.card-title:hover{
+  color: rgb(139, 198, 250,);
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.card-img-overlay{
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  color: navy;
+}
+
+.card-img-overlay:hover{
+  min-width: 100%;
+  min-height: 100%;
+  background-color: rgba(128, 128, 128, .75);
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+main{
+background-image: url(./board-bright-design-fabric-235994.jpg);
+
 }
