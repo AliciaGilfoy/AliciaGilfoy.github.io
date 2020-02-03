@@ -1,7 +1,18 @@
+html{
+ min-width: 100vw;
+ max-width: 100vw;
+}
+
 body{
-  max-width: 100vw;
+  min-width: 100vw;
   margin: 0;
 }
+
+main{
+min-width: 100vw;
+margin: 0;
+}
+
 .my_navbar{
   display: flex;
   flex-direction: column;
@@ -34,6 +45,7 @@ background-image: url(./abstract-art-background-blue-370799.jpg);
 background-repeat: no-repeat;
 color: navy;
 align-items: center;
+margin: 0;
 }
 
 .list-group-item {
@@ -118,8 +130,13 @@ border-bottom: 2px dashed navy;
 .my-info{
   background-color: rgba(101, 75, 143, 0.767);
   background-image: linear-gradient(to left, rgba(144, 109, 199, 0.767), rgba(48, 208, 248, 0.856));
+  width: 100%;
 }
 
 blockquote{
+  color: navy;
+}
+
+.text-navy{
   color: navy;
 }
