@@ -99,7 +99,27 @@ justify-content: space-around;
   justify-content: center;
 }
 
-main{
+.my-projects{
 background-image: url(./board-bright-design-fabric-235994.jpg);
+border-bottom: 2px dashed navy;
+}
 
+.card-img{
+  height: 250px;
+  width: 100%;
+}
+
+.row-cols-1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.my-info{
+  background-color: rgba(101, 75, 143, 0.767);
+  background-image: linear-gradient(to left, rgba(144, 109, 199, 0.767), rgba(48, 208, 248, 0.856));
+}
+
+blockquote{
+  color: navy;
 }
