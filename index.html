@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <!-- Bootstrap CSS -->
-  <link rel="icon" href="./rubiks.png">
+  <link rel="icon" href="./cube.png">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
@@ -19,7 +19,7 @@
 
 <body class="bg-ltteal section">
   <header>
-    <div class="container-fluid header section">
+    <div class="container-fluid header section" id="top">
       <div class="row summary-skill-row">
         <div class="text-center text-ltteal mb-5">
           <h1 class="display-2 pt-3"><strong> Alicia Gilfoy</strong></h1>
@@ -43,37 +43,37 @@
             <li><a class="text-light" role="button" href="https://www.linkedin.com/in/alicia-gilfoy"
                 target="_blank">LinkedIn</a></li>
           </ul>
-          <a class="nav-link text-white" href="#aboutMe"><i class="fas fa-arrow-down mt-5 pt-5 h3"></i></a>
+          <a class="nav-link text-white" href="#skills"><i id="arrow" class="fas fa-arrow-down mt-5 pt-5 h3"></i></a>
         </div>
       </div>
     </div>
-    <div class="container section" id="aboutMe">
+    <div class="container section" id="skills">
       <div class="row pt-5 mt-5">
         <div class="col-12 display-4 text-center">Skills</div>
-        <ul class="col-12 list-group p-0">
-          <div class="row">
-            <li class="display-2 p-2"><i class="fab fa-html5"></i></li>
-            <li class="display-2 p-2"><i class="fab fa-font-awesome-flag"></i></li>
-            <li class="display-2 p-2"><i class="fab fa-js-square"></i></li>
-            <li class="display-2 p-2"><i class="fab fa-css3-alt"></i></li>
-            <li class="display-2 p-2"><i class="fab fa-node"></i></li>
-            <li class="display-2 p-2 icon-clogo"><img class="cube" src="./rubiks.png"></li>
-            <li class="display-2 p-2"><i class="fab fa-vuejs"></i></li>
-            <li class="display-2 p-2"><i class="fab fa-github-square"></i></li>
-            <li class="display-2 p-2"><i class="fab fa-npm"></i></li>
-            <li class="display-2 p-2"><i class="fab fa-sass"></i></li>
-            <li class="display-2 p-2 icon-clogo"><img class="clogo" src="./csharp.png"></li>
-          </div>
+        <ul class="col-12 list-group p-0 icon-row">
+          <li class="display-2 p-2"><i class="fab fa-html5"></i></li>
+          <li class="display-2 p-2"><i class="fab fa-font-awesome-flag"></i></li>
+          <li class="display-2 p-2"><i class="fab fa-js-square"></i></li>
+          <li class="display-2 p-2"><i class="fab fa-css3-alt"></i></li>
+          <li class="display-2 p-2"><i class="fab fa-node"></i></li>
+          <li class="display-2 p-2"><i class="fab fa-vuejs"></i></li>
+          <li class="display-2 p-2"><i class="fab fa-github-square"></i></li>
+          <li class="display-2 p-2"><i class="fab fa-npm"></i></li>
+          <li class="display-2 p-2"><i class="fab fa-sass"></i></li>
+          <li class="display-2 p-2 icon-clogo"><img class="clogo" src="./csharp.png"></li>
+          <li class="display-2 p-2 icon-clogo"><img class="cube" src="./blkcube.png"></li>
         </ul>
       </div>
-      <div class="row py-5 my-5 me-row">
+      <div class="row pt-5 mt-5 pb-2 me-row">
         <blockquote class="col-6 quote blockquote text-center">
           <p class="h5 quote-text">“Success is no accident. It is hard work, perseverance, learning,
             studying, sacrifice and most of all, love of what you are doing or learning to do”</p>
           <footer class="blockquote-footer text-white"> Pele</footer>
         </blockquote>
       </div>
-      <div class="row about-me bg-light py-5">
+      <a class="nav-link text-white col-12 text-center pb-5 mb-5" href="#aboutMe"><i id="arrow"
+          class="fas fa-arrow-down mt-5 pt-5 h3"></i></a>
+      <div class="row about-me bg-light py-5" id="aboutMe">
         <div class="col-10 text-center">
           <img class="profile-pic" src="./profile.jpg">
           <h2 class="pt-3 display-4">About Me</h2>
@@ -95,13 +95,15 @@
             developing full stack programs. I have mastered both making programs look great and run smoothly. I am a
             quick learner and am always up for learning a new language or framework.I look forward to a programming
             career where I can learn and grow with a company.
+            <a class="nav-link text-ltteal col-12 text-center py-2 my-2" href="#projects"><i id="arrow"
+                class="fas fa-arrow-down h3"></i></a>
           </h5>
         </div>
       </div>
     </div>
     </div>
   </header>
-  <main class="container my-projects section">
+  <main class="container my-projects section" id="projects">
     <div class="row py-5">
       <div class="col-12 display-4 text-center py-4">Projects</div>
       <div id="carouselExampleIndicators" class="carousel slide col-12 p-0 m-0" data-ride="carousel">
@@ -246,6 +248,8 @@
         </div>
       </div>
     </div>
+    <a class="nav-link text-light col-12 text-center pt-2 mt-2" href="#top"><i id="arrow"
+        class="fas fa-arrow-up h3"></i></a>
   </main>
   <footer class="container-fluid my-footer bg-dark p-0 mt-5">
     <h4 class="text-ltteal pt-3">Connect with me on Linkedin</h4>

@@ -1,5 +1,6 @@
 html{
  width: 100vw;
+ scroll-behavior: smooth;
 }
 
 body{
@@ -20,12 +21,19 @@ max-width: 100vw;
 
 }
 
+.icon-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-items: center;
+}
+
 .button{
   cursor: pointer;
 }
 
 .cube{
-  height: 95px;
+  height: 93px;
 }
 
 .summary-skill-row{
@@ -127,4 +135,8 @@ li{
 .carousel{
   box-shadow: 10px 10px 5px gray;
   border-radius: 5px;
+}
+
+#arrow{
+  scroll-behavior: smooth;
 }
